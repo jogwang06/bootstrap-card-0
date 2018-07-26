@@ -1,0 +1,37 @@
+
+.profile-header{
+    width:250px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 35px;
+}
+.header{
+    padding:10px;
+    
+}
+.nav{
+    font-weight:bold;
+    background-color:#52e3fa;
+}
+
+	.nav-bar-item{
+		display: inline-block;
+		transition: all .2s ease-in-out
+	}
+.nav-bar-item:hover { 
+	transform: scale(1.1); 
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.nav-bar-item:active{
+    background-color:rgba(0, 0, 0, 0.19);
+    
+}
+.card1{
+    margin:15px;
+}
+.btn-fb{
+    background-color: blue;
+    color: white;
+}
+
+
